@@ -1,5 +1,5 @@
-function test(obj: { foo: string }) {
+function test1(obj: { foo: string }) {
   console.log(obj.foo);
 }
 
-test(null); // oops
+test1(null); // oops
