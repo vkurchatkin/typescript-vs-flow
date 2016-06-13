@@ -1,0 +1,14 @@
+{
+  "name": "typescript-vs-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^1.8.10"
+  }
+}
