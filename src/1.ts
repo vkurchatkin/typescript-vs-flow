@@ -1,5 +1,5 @@
-function test1(obj: { foo: string }) {
+export function test(obj: { foo: string }) {
   console.log(obj.foo);
 }
 
-test1(null); // oops
+test(null); // oops
