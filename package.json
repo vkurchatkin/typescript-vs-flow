@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc",
+    "check": "flow check flow"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "flow-bin": "^0.27.0",
     "typescript": "^1.8.10"
   }
 }

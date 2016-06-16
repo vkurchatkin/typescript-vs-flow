@@ -3,7 +3,7 @@
         "module": "commonjs",
         "target": "ES5",
         "outDir": "ts-built",
-        "rootDir": "src",
+        "rootDir": "ts",
         "moduleResolution": "node"
     }
 }

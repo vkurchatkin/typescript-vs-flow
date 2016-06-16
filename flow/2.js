@@ -1,9 +1,14 @@
+/* @flow */
+
+// exactly the same code as 2.ts
+
 type Foo = { type: 'foo' , foo: string };
 type Bar = { type: 'bar' , bar: string };
 type MyType = Foo | Bar;
 
 export function test(t: MyType) {
-  if (t.type === 'baz') { // oops, typo
-    console.log((<Bar>t).bar) // had to cast, oops
+  if (t.type === 'foo') {
+    // Flow knows, that t is Foo
+    console.log(t.foo); // no error
   }
 }
