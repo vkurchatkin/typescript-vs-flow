@@ -1,7 +1,13 @@
-type A = { foo: () => void };
-type B = { foo?: () => void };
 
+enum Direction {
+    Up = 1,
+    Down,
+    Left,
+    Right
+}
 
-const x: A = { foo: () => {} };
+export function test(v: Direction) {
+}
 
-delete x.foo
+// Typescript allows to pass any number instead of enum value
+test(100);

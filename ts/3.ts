@@ -13,3 +13,13 @@ export function test(t: MyType) {
     console.log((<Bar>t).bar) // should be an error
   }
 }
+
+
+// Typescript has an intersting feature, called
+// user-defined type guards to handle such cases.
+// By type guards themselves are not validate in any
+// way.
+
+function isNumber(t: number | string): t is number {
+    return typeof t === 'string'; // should be an error
+}
