@@ -4,4 +4,5 @@ A collection of snippets, where Flow does better job than TypeScript.
 
 ## TLDR
 
-Flow provides much more safety than TypeScript.
+Flow is more flexible and provides much more safety than TypeScript at
+the same time.
