@@ -12,6 +12,7 @@ type MyType = Foo | Bar;
 export function test(t: MyType) {
   if (t.type === 'foo') {
     // no need to keep things in sync manually
+    // $ExpectError
     console.log(t.bar) // error
   }
 }

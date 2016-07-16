@@ -16,5 +16,6 @@ export function test(a: A) {
 
 
 const b: B = { a: 'foo' };
+// $ExpectError
 test(b); // error
 b.a.toLowerCase();
