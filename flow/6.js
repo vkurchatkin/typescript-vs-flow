@@ -10,7 +10,7 @@ export function test(foobar: boolean) {
   // x is number here
   if (foobar) {
     x = 'Invalid'; // this is ok
-    // x is xtring here
+    // x is string here
   }
 
   // x is number | string here
