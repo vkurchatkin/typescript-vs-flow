@@ -1,5 +1,8 @@
 {
     "compilerOptions": {
+        "lib": [
+            "es2015"
+        ],
         "module": "commonjs",
         "target": "ES5",
         "outDir": "ts-built",
