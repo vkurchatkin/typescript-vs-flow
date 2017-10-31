@@ -5,6 +5,6 @@ type MyType = Foo | Bar;
 
 export function test(t: MyType) {
   if (t.type === 'foo') {
-    console.log((<Bar>t).bar) // error, as expected
+    console.log(t.bar) // error, as expected
   }
 }
